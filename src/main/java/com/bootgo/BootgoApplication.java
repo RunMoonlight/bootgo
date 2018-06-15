@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.bootgo.dao")
+@MapperScan("com.bootgo.*.dao")
 public class BootgoApplication {
 
 	public static void main(String[] args) {
